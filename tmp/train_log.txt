@@ -1,0 +1,324 @@
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/brown/IsaacLab/apps/isaaclab.python.headless.kit
+Loading user config located at: '/home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20261002_160942.log
+2026-10-02T08:09:43Z [160ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-02T08:09:43Z [817ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+2026-10-02T08:09:43Z [964ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-10-02T08:09:49Z [6,556ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (RPL-S)
+2026-10-02T08:09:49Z [6,556ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (RPL-S)
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 580.178.04    | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 8188    MB | 10de      | 0          |
+|     |                                  |        |     |            | 28a0      | ade03d04.. |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Graphics (RPL-S)        |        |     | 23867   MB | 8086      | 0          |
+|     |                                  |        |     |            | a78b      | 86808ba7.. |
+|     |                                  |        |     |            | 0         |            |
+|=============================================================================================|
+| OS: 22.04.5 LTS (Jammy Jellyfish) ubuntu, Version: 22.04.5, Kernel: 6.8.0-138-generic
+| XServer Vendor: The X.Org Foundation, XServer Version: 12101004 (1.21.1.4)
+| Processor: Intel(R) Core(TM) i7-14650HX
+| Cores: 16 | Logical Cores: 24
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 31823 | Free Memory: 22821
+| Total Page/Swap (MB): 0 | Free Page/Swap: 0
+|---------------------------------------------------------------------------------------------|
+2026-10-02T08:09:49Z [6,748ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-10-02T08:09:49Z [6,757ms] [Warning] [gpu.foundation.plugin] IOMMU is enabled.
+2026-10-02T08:09:49Z [6,757ms] [Warning] [gpu.foundation.plugin] Detected IOMMU is enabled. Running CUDA peer-to-peer bandwidth and latency validation.
+Unidirectional P2P=Enabled Bandwidth (P2P Writes) Matrix (GB/s)
+   D\D     0 
+     0 226.35 
+P2P=Enabled Latency (P2P Writes) Matrix (us)
+   GPU     0 
+     0   1.41 
+
+   CPU     0 
+     0   1.65 
+[INFO]: Parsing configuration from: agent_tasks.manager_based.cod_stand.cod_stand_env_cfg:CodStandEnvCfg
+[INFO]: Parsing configuration from: agent_tasks.manager_based.cod_stand.agents.rsl_rl_ppo_cfg:CodStandPPORunnerCfg
+[INFO] Logging experiment in directory: /home/brown/wheeled-legged_RL/logs/rsl_rl/cod_stand
+Exact experiment name requested from command line: 2026-10-02_16-09-50
+Setting seed: 42
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : 42
+	Physics step-size     : 0.005
+	Rendering step-size   : 0.02
+	Environment step-size : 0.02
+[INFO]: Time taken for scene creation : 0.328425 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+	Number of environments: 256
+	Environment spacing   : 2.5
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : []
+	Replicate physics     : True
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-02T08:09:51Z [8,461ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/right_f3r1_joint
+2026-10-02T08:09:51Z [8,462ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/right_f4r2_joint
+2026-10-02T08:09:51Z [8,462ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/left_f3r1_joint
+2026-10-02T08:09:51Z [8,462ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/left_f4r2_joint
+2026-10-02T08:09:51Z [8,462ms] [Warning] [omni.physx.plugin] Detected an articulation at /World/envs/env_0/Robot/base_link with more than 4 velocity iterations being added to a TGS scene.The related behavior changed recently, please consult the changelog. This warning will only print once.
+[INFO]: Time taken for simulation start : 0.463455 seconds
+[INFO] Command Manager:  <CommandManager> contains 0 active terms.
++------------------------+
+|  Active Command Terms  |
++--------+-------+-------+
+| Index  | Name  |  Type |
++--------+-------+-------+
++--------+-------+-------+
+
+[INFO] Event Manager:  <EventManager> contains 1 active terms.
++-------------------------------------+
+| Active Event Terms in Mode: 'reset' |
++---------+---------------------------+
+|  Index  | Name                      |
++---------+---------------------------+
+|    0    | reset_base                |
+|    1    | reset_robot_joints        |
++---------+---------------------------+
+
+[INFO] Recorder Manager:  <RecorderManager> contains 0 active terms.
++---------------------+
+| Active Recorder Terms |
++-----------+---------+
+|   Index   | Name    |
++-----------+---------+
++-----------+---------+
+
+[INFO] Action Manager:  <ActionManager> contains 2 active terms.
++----------------------------------+
+|  Active Action Terms (shape: 6)  |
++--------+------------+------------+
+| Index  | Name       |  Dimension |
++--------+------------+------------+
+|   0    | joint_pos  |          4 |
+|   1    | wheel_vel  |          2 |
++--------+------------+------------+
+
+[INFO] Observation Manager: <ObservationManager> contains 1 groups.
++---------------------------------------------------------+
+| Active Observation Terms in Group: 'policy' (shape: (40,)) |
++-----------+---------------------------------+-----------+
+|   Index   | Name                            |   Shape   |
++-----------+---------------------------------+-----------+
+|     0     | base_ang_vel                    |    (3,)   |
+|     1     | projected_gravity               |    (3,)   |
+|     2     | joint_pos                       |   (14,)   |
+|     3     | joint_vel                       |   (14,)   |
+|     4     | last_action                     |    (6,)   |
++-----------+---------------------------------+-----------+
+
+[INFO] Termination Manager:  <TerminationManager> contains 3 active terms.
++------------------------------------+
+|      Active Termination Terms      |
++-------+-----------------+----------+
+| Index | Name            | Time Out |
++-------+-----------------+----------+
+|   0   | time_out        |   True   |
+|   1   | base_height     |  False   |
+|   2   | bad_orientation |  False   |
++-------+-----------------+----------+
+
+[INFO] Reward Manager:  <RewardManager> contains 7 active terms.
++------------------------------------+
+|        Active Reward Terms         |
++-------+------------------+---------+
+| Index | Name             |  Weight |
++-------+------------------+---------+
+|   0   | alive            |     1.0 |
+|   1   | flat_orientation |    -2.0 |
+|   2   | lin_vel_z        |    -0.5 |
+|   3   | ang_vel_xy       |   -0.05 |
+|   4   | action_rate      |   -0.01 |
+|   5   | joint_vel        | -0.0001 |
+|   6   | joint_torque     |  -1e-05 |
++-------+------------------+---------+
+
+[INFO] Curriculum Manager:  <CurriculumManager> contains 0 active terms.
++----------------------+
+| Active Curriculum Terms |
++-----------+----------+
+|   Index   | Name     |
++-----------+----------+
++-----------+----------+
+
+[INFO]: Completed setting up the environment...
+--------------------------------------------------------------------------------
+Resolved observation sets: 
+	 policy :  ['policy']
+	 critic :  ['policy']
+--------------------------------------------------------------------------------
+Actor MLP: MLP(
+  (0): Linear(in_features=40, out_features=128, bias=True)
+  (1): ELU(alpha=1.0)
+  (2): Linear(in_features=128, out_features=128, bias=True)
+  (3): ELU(alpha=1.0)
+  (4): Linear(in_features=128, out_features=64, bias=True)
+  (5): ELU(alpha=1.0)
+  (6): Linear(in_features=64, out_features=6, bias=True)
+)
+Critic MLP: MLP(
+  (0): Linear(in_features=40, out_features=128, bias=True)
+  (1): ELU(alpha=1.0)
+  (2): Linear(in_features=128, out_features=128, bias=True)
+  (3): ELU(alpha=1.0)
+  (4): Linear(in_features=128, out_features=64, bias=True)
+  (5): ELU(alpha=1.0)
+  (6): Linear(in_features=64, out_features=1, bias=True)
+)
+################################################################################
+                        [1m Learning iteration 0/5 [0m                        
+
+                       Computation: 4394 steps/s (collection: 1.232s, learning 0.166s)
+             Mean action noise std: 1.00
+          Mean value_function loss: 0.0055
+               Mean surrogate loss: -0.0119
+                 Mean entropy loss: 8.5046
+                       Mean reward: 0.11
+               Mean episode length: 10.50
+              Episode_Reward/alive: 0.0227
+   Episode_Reward/flat_orientation: -0.0001
+          Episode_Reward/lin_vel_z: -0.0046
+         Episode_Reward/ang_vel_xy: -0.0001
+        Episode_Reward/action_rate: -0.0025
+          Episode_Reward/joint_vel: -0.0032
+       Episode_Reward/joint_torque: -0.0002
+      Episode_Termination/time_out: 0.0283
+   Episode_Termination/base_height: 0.0000
+Episode_Termination/bad_orientation: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 6144
+                    Iteration time: 1.40s
+                      Time elapsed: 00:00:01
+                               ETA: 00:00:06
+
+Could not find git repository in /home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/rsl_rl/__init__.py. Skipping.
+Storing git diff for 'wheeled-legged_RL' in: /home/brown/wheeled-legged_RL/logs/rsl_rl/cod_stand/2026-10-02_16-09-50/git/wheeled-legged_RL.diff
+################################################################################
+                        [1m Learning iteration 1/5 [0m                        
+
+                       Computation: 15033 steps/s (collection: 0.362s, learning 0.047s)
+             Mean action noise std: 1.00
+          Mean value_function loss: 0.0052
+               Mean surrogate loss: -0.0098
+                 Mean entropy loss: 8.4984
+                       Mean reward: 0.28
+               Mean episode length: 22.83
+              Episode_Reward/alive: 0.0704
+   Episode_Reward/flat_orientation: -0.0017
+          Episode_Reward/lin_vel_z: -0.0057
+         Episode_Reward/ang_vel_xy: -0.0007
+        Episode_Reward/action_rate: -0.0084
+          Episode_Reward/joint_vel: -0.0077
+       Episode_Reward/joint_torque: -0.0005
+      Episode_Termination/time_out: 0.0739
+   Episode_Termination/base_height: 0.0000
+Episode_Termination/bad_orientation: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 12288
+                    Iteration time: 0.41s
+                      Time elapsed: 00:00:01
+                               ETA: 00:00:03
+
+################################################################################
+                        [1m Learning iteration 2/5 [0m                        
+
+                       Computation: 14936 steps/s (collection: 0.367s, learning 0.045s)
+             Mean action noise std: 0.99
+          Mean value_function loss: 0.0052
+               Mean surrogate loss: -0.0091
+                 Mean entropy loss: 8.4673
+                       Mean reward: 0.45
+               Mean episode length: 36.24
+              Episode_Reward/alive: 0.1194
+   Episode_Reward/flat_orientation: -0.0069
+          Episode_Reward/lin_vel_z: -0.0072
+         Episode_Reward/ang_vel_xy: -0.0018
+        Episode_Reward/action_rate: -0.0141
+          Episode_Reward/joint_vel: -0.0144
+       Episode_Reward/joint_torque: -0.0008
+      Episode_Termination/time_out: 0.1191
+   Episode_Termination/base_height: 0.0000
+Episode_Termination/bad_orientation: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 18432
+                    Iteration time: 0.41s
+                      Time elapsed: 00:00:02
+                               ETA: 00:00:02
+
+################################################################################
+                        [1m Learning iteration 3/5 [0m                        
+
+                       Computation: 15159 steps/s (collection: 0.357s, learning 0.048s)
+             Mean action noise std: 0.98
+          Mean value_function loss: 0.0046
+               Mean surrogate loss: -0.0094
+                 Mean entropy loss: 8.4170
+                       Mean reward: 0.57
+               Mean episode length: 44.83
+              Episode_Reward/alive: 0.1638
+   Episode_Reward/flat_orientation: -0.0072
+          Episode_Reward/lin_vel_z: -0.0087
+         Episode_Reward/ang_vel_xy: -0.0020
+        Episode_Reward/action_rate: -0.0190
+          Episode_Reward/joint_vel: -0.0185
+       Episode_Reward/joint_torque: -0.0011
+      Episode_Termination/time_out: 0.1693
+   Episode_Termination/base_height: 0.0000
+Episode_Termination/bad_orientation: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 24576
+                    Iteration time: 0.41s
+                      Time elapsed: 00:00:02
+                               ETA: 00:00:01
+
+################################################################################
+                        [1m Learning iteration 4/5 [0m                        
+
+                       Computation: 14697 steps/s (collection: 0.370s, learning 0.048s)
+             Mean action noise std: 0.98
+          Mean value_function loss: 0.0049
+               Mean surrogate loss: -0.0093
+                 Mean entropy loss: 8.3851
+                       Mean reward: 0.75
+               Mean episode length: 57.79
+              Episode_Reward/alive: 0.2154
+   Episode_Reward/flat_orientation: -0.0107
+          Episode_Reward/lin_vel_z: -0.0082
+         Episode_Reward/ang_vel_xy: -0.0032
+        Episode_Reward/action_rate: -0.0253
+          Episode_Reward/joint_vel: -0.0233
+       Episode_Reward/joint_torque: -0.0014
+      Episode_Termination/time_out: 0.2061
+   Episode_Termination/base_height: 0.0000
+Episode_Termination/bad_orientation: 0.0000
+--------------------------------------------------------------------------------
+                   Total timesteps: 30720
+                    Iteration time: 0.42s
+                      Time elapsed: 00:00:03
+                               ETA: 00:00:00
+
+EXIT=0

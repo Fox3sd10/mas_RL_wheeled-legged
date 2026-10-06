@@ -1,0 +1,185 @@
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/brown/IsaacLab/apps/isaaclab.python.headless.kit
+Loading user config located at: '/home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20261004_170849.log
+2026-10-04T09:08:49Z [59ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-04T09:08:49Z [364ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+2026-10-04T09:08:49Z [495ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-10-04T09:08:52Z [3,506ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (RPL-S)
+2026-10-04T09:08:52Z [3,506ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (RPL-S)
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 580.178.04    | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 8188    MB | 10de      | 0          |
+|     |                                  |        |     |            | 28a0      | ade03d04.. |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Graphics (RPL-S)        |        |     | 23867   MB | 8086      | 0          |
+|     |                                  |        |     |            | a78b      | 86808ba7.. |
+|     |                                  |        |     |            | 0         |            |
+|=============================================================================================|
+| OS: 22.04.5 LTS (Jammy Jellyfish) ubuntu, Version: 22.04.5, Kernel: 6.8.0-138-generic
+| XServer Vendor: The X.Org Foundation, XServer Version: 12101004 (1.21.1.4)
+| Processor: Intel(R) Core(TM) i7-14650HX
+| Cores: 16 | Logical Cores: 24
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 31823 | Free Memory: 22274
+| Total Page/Swap (MB): 0 | Free Page/Swap: 0
+|---------------------------------------------------------------------------------------------|
+2026-10-04T09:08:53Z [4,557ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-10-04T09:08:53Z [4,608ms] [Warning] [gpu.foundation.plugin] IOMMU is enabled.
+2026-10-04T09:08:53Z [4,608ms] [Warning] [gpu.foundation.plugin] Detected IOMMU is enabled. Running CUDA peer-to-peer bandwidth and latency validation.
+Unidirectional P2P=Enabled Bandwidth (P2P Writes) Matrix (GB/s)
+   D\D     0 
+     0 212.90 
+P2P=Enabled Latency (P2P Writes) Matrix (us)
+   GPU     0 
+     0   1.23 
+
+   CPU     0 
+     0   1.31 
+2026-10-04T09:08:54Z [5,047ms] [Warning] [isaaclab.envs.manager_based_env] Seed not set for the environment. The environment creation may not be deterministic.
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : None
+	Physics step-size     : 0.005
+	Rendering step-size   : 0.02
+	Environment step-size : 0.02
+[INFO]: Time taken for scene creation : 0.253104 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+	Number of environments: 16
+	Environment spacing   : 2.5
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : []
+	Replicate physics     : True
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/right_f3r1_joint
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/right_f4r2_joint
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/left_f3r1_joint
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/left_f4r2_joint
+2026-10-04T09:08:55Z [6,048ms] [Warning] [omni.physx.plugin] Detected an articulation at /World/envs/env_0/Robot/base_link with more than 4 velocity iterations being added to a TGS scene.The related behavior changed recently, please consult the changelog. This warning will only print once.
+[INFO]: Time taken for simulation start : 0.873938 seconds
+[INFO] Command Manager:  <CommandManager> contains 1 active terms.
++------------------------------------------------+
+|              Active Command Terms              |
++-------+---------------+------------------------+
+| Index | Name          |          Type          |
++-------+---------------+------------------------+
+|   0   | base_velocity | UniformVelocityCommand |
++-------+---------------+------------------------+
+
+[INFO] Event Manager:  <EventManager> contains 1 active terms.
++-------------------------------------+
+| Active Event Terms in Mode: 'reset' |
++---------+---------------------------+
+|  Index  | Name                      |
++---------+---------------------------+
+|    0    | reset_base                |
+|    1    | reset_robot_joints        |
++---------+---------------------------+
+
+[INFO] Recorder Manager:  <RecorderManager> contains 0 active terms.
++---------------------+
+| Active Recorder Terms |
++-----------+---------+
+|   Index   | Name    |
++-----------+---------+
++-----------+---------+
+
+[INFO] Action Manager:  <ActionManager> contains 2 active terms.
++----------------------------------+
+|  Active Action Terms (shape: 6)  |
++--------+------------+------------+
+| Index  | Name       |  Dimension |
++--------+------------+------------+
+|   0    | joint_pos  |          4 |
+|   1    | wheel_vel  |          2 |
++--------+------------+------------+
+
+[INFO] Observation Manager: <ObservationManager> contains 1 groups.
++---------------------------------------------------------+
+| Active Observation Terms in Group: 'policy' (shape: (47,)) |
++-----------+---------------------------------+-----------+
+|   Index   | Name                            |   Shape   |
++-----------+---------------------------------+-----------+
+|     0     | base_ang_vel                    |    (3,)   |
+|     1     | base_lin_vel                    |    (3,)   |
+|     2     | projected_gravity               |    (3,)   |
+|     3     | velocity_commands               |    (3,)   |
+|     4     | joint_pos                       |   (14,)   |
+|     5     | joint_vel                       |   (14,)   |
+|     6     | last_action                     |    (6,)   |
+|     7     | base_height                     |    (1,)   |
++-----------+---------------------------------+-----------+
+
+[INFO] Termination Manager:  <TerminationManager> contains 3 active terms.
++------------------------------------+
+|      Active Termination Terms      |
++-------+-----------------+----------+
+| Index | Name            | Time Out |
++-------+-----------------+----------+
+|   0   | time_out        |   True   |
+|   1   | base_height     |  False   |
+|   2   | bad_orientation |  False   |
++-------+-----------------+----------+
+
+[INFO] Reward Manager:  <RewardManager> contains 10 active terms.
++------------------------------------+
+|        Active Reward Terms         |
++-------+------------------+---------+
+| Index | Name             |  Weight |
++-------+------------------+---------+
+|   0   | alive            |     1.0 |
+|   1   | track_lin_vel_xy |     2.0 |
+|   2   | track_ang_vel_z  |     0.5 |
+|   3   | base_height      |    -5.0 |
+|   4   | flat_orientation |    -2.0 |
+|   5   | lin_vel_z        |    -0.5 |
+|   6   | ang_vel_xy       |   -0.05 |
+|   7   | action_rate      |   -0.01 |
+|   8   | joint_vel        | -0.0001 |
+|   9   | joint_torque     |  -1e-05 |
++-------+------------------+---------+
+
+[INFO] Curriculum Manager:  <CurriculumManager> contains 0 active terms.
++----------------------+
+| Active Curriculum Terms |
++-----------+----------+
+|   Index   | Name     |
++-----------+----------+
++-----------+----------+
+
+[INFO]: Completed setting up the environment...
+obs keys: ['policy'] policy shape: torch.Size([16, 47])
+Traceback (most recent call last):
+  File "/home/brown/wheeled-legged_RL/tmp/diag.py", line 22, in <module>
+    obs, rew, term, trunc, info = env.step(act)
+                                  ^^^^^^^^^^^^^
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/envs/manager_based_rl_env.py", line 174, in step
+    self.action_manager.process_action(action.to(self.device))
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/managers/action_manager.py", line 381, in process_action
+    if self.total_action_dim != action.shape[1]:
+                                ~~~~~~~~~~~~^^^
+IndexError: tuple index out of range
+2026-10-04T09:08:55Z [6,324ms] [Warning] [omni.physx.plugin] USD stage detach not called, holding a loose ptr to a stage!
+2026-10-04T09:08:56Z [6,865ms] [Warning] [carb] Recursive unloadAllPlugins() detected!
+EXIT=0

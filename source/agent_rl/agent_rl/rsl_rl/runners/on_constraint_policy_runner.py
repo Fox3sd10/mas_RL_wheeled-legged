@@ -26,7 +26,7 @@ from rsl_rl.utils import store_code_state
 # from modules import ActorCriticRMA,ActorCriticRmaTrans,ActorCriticSF,ActorCriticBarlowTwins,ActorCriticStateTransformer,ActorCriticTransBarlowTwins,ActorCriticMixedBarlowTwins,ActorCriticRnnBarlowTwins,ActorCriticVqvae
 from agent_rl.rsl_rl.modules import ActorCriticBarlowTwins 
 from agent_rl.rsl_rl.algorithms import NP3O
-from agent_rl.rsl_rl.env import VecEnv
+from rsl_rl.env import VecEnv
 from copy import copy, deepcopy
 
 class OnConstraintPolicyRunner(OnPolicyRunner):

@@ -1,0 +1,21 @@
+=== 含 base_link 的 prim ===
+FOUND: /COD_2026_Balance_2_0/base_link
+FOUND: /COD_2026_Balance_2_0/base_link/visuals
+FOUND: /COD_2026_Balance_2_0/base_link/collisions
+FOUND: /visuals/base_link
+FOUND: /visuals/base_link/base_link
+FOUND: /visuals/base_link/base_link/mesh
+FOUND: /colliders/base_link
+FOUND: /colliders/base_link/base_link
+FOUND: /colliders/base_link/base_link/mesh
+FOUND: /meshes/base_link
+FOUND: /meshes/base_link/mesh
+
+=== base_link 世界包围盒 ===
+z_min = 0.1620   z_max = 0.6301
+x [-0.3101, 0.2713]   y [-0.2352, 0.2352]
+
+>>> 若 base_link 原点在世界 z=0，则'车体下端触地'时 root_pos_z = 0.1620 m
+
+=== base_link 子节点世界 z 范围 ===
+  /COD_2026_Balance_2_0/base_link/visuals: z=[0.1620, 0.6301]

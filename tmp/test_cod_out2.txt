@@ -1,0 +1,84 @@
+[WARN][AppLauncher]: There are no arguments attached to the ArgumentParser object. If you have your own arguments, please load your own arguments before calling the `AppLauncher.add_app_launcher_args` method. This allows the method to check the validity of the arguments and perform checks for argument names.
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/brown/IsaacLab/apps/isaaclab.python.headless.kit
+Loading user config located at: '/home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20260928_003006.log
+2026-09-27T16:30:06Z [69ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-09-27T16:30:07Z [482ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+2026-09-27T16:30:07Z [640ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-09-27T16:30:12Z [5,400ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (RPL-S)
+2026-09-27T16:30:12Z [5,401ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (RPL-S)
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 580.178.04    | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 8188    MB | 10de      | 0          |
+|     |                                  |        |     |            | 28a0      | ade03d04.. |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Graphics (RPL-S)        |        |     | 23867   MB | 8086      | 0          |
+|     |                                  |        |     |            | a78b      | 86808ba7.. |
+|     |                                  |        |     |            | 0         |            |
+|=============================================================================================|
+| OS: 22.04.5 LTS (Jammy Jellyfish) ubuntu, Version: 22.04.5, Kernel: 6.8.0-138-generic
+| XServer Vendor: The X.Org Foundation, XServer Version: 12101004 (1.21.1.4)
+| Processor: Intel(R) Core(TM) i7-14650HX
+| Cores: 16 | Logical Cores: 24
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 31823 | Free Memory: 13994
+| Total Page/Swap (MB): 0 | Free Page/Swap: 0
+|---------------------------------------------------------------------------------------------|
+2026-09-27T16:30:13Z [6,697ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-09-27T16:30:13Z [6,816ms] [Warning] [gpu.foundation.plugin] IOMMU is enabled.
+2026-09-27T16:30:13Z [6,816ms] [Warning] [gpu.foundation.plugin] Detected IOMMU is enabled. Running CUDA peer-to-peer bandwidth and latency validation.
+Unidirectional P2P=Enabled Bandwidth (P2P Writes) Matrix (GB/s)
+   D\D     0 
+     0 152.89 
+P2P=Enabled Latency (P2P Writes) Matrix (us)
+   GPU     0 
+     0   1.24 
+
+   CPU     0 
+     0   1.53 
+2026-09-27T16:30:13Z [7,013ms] [Warning] [omni.kvdb.plugin] Disabling key-value database because another kit process is locking it
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/right_f3r1_joint
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/right_f4r2_joint
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/left_f3r1_joint
+2026-09-27T16:30:15Z [8,711ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/left_f4r2_joint
+2026-09-27T16:30:15Z [8,712ms] [Warning] [omni.physx.plugin] Detected an articulation at /World/envs/env_0/Robot/base_link with more than 4 velocity iterations being added to a TGS scene.The related behavior changed recently, please consult the changelog. This warning will only print once.
+2026-09-27T16:30:15Z [8,774ms] [Warning] [isaaclab.assets.articulation.articulation] Not all actuators are configured! Total number of actuated joints not equal to number of joints available: 0 != 14.
+>>> SCENE BUILT OK
+>>> ALL PRIM PATHS under /World/envs/env_0/Robot:
+    Xform                    /World/envs/env_0/Robot
+    Scope                    /World/envs/env_0/Robot/Looks
+    Material                 /World/envs/env_0/Robot/Looks/DefaultMaterial
+    Shader                   /World/envs/env_0/Robot/Looks/DefaultMaterial/DefaultMaterial
+>>> num_bodies = 15
+>>> num_joints = 14
+>>> joint_names = ['left_front1_joint', 'left_rear1_joint', 'right_front1_joint', 'right_rear1_joint', 'left_front2_joint', 'left_rear2_joint', 'right_front2_joint', 'right_rear2_joint', 'left_front3_joint', 'left_wheel_joint', 'right_front3_joint', 'right_wheel_joint', 'left_front4_joint', 'right_front4_joint']
+>>> body_names = ['base_link', 'left_front1_link', 'left_rear1_link', 'right_front1_link', 'right_rear1_link', 'left_front2_link', 'left_rear2_link', 'right_front2_link', 'right_rear2_link', 'left_front3_link', 'left_wheel_link', 'right_front3_link', 'right_wheel_link', 'left_front4_link', 'right_front4_link']
+>>> default_joint_pos shape = torch.Size([1, 14])
+>>> step    0 root_pos_z=0.3795 joint_pos[:6]=[-0.017905831336975098, -0.012586946599185467, 0.012639721855521202, 0.008310411125421524, 0.01704273745417595, 0.06626474112272263]
+>>> step   50 root_pos_z=0.2369 joint_pos[:6]=[-0.1565338671207428, -0.20825013518333435, 0.1783076524734497, 0.2197086662054062, 0.17804263532161713, -0.1040985956788063]
+>>> step  100 root_pos_z=0.2293 joint_pos[:6]=[-0.20646220445632935, -0.2607544958591461, 0.22970031201839447, 0.2738726735115051, 0.21841870248317719, -0.13560621440410614]
+>>> step  150 root_pos_z=0.2272 joint_pos[:6]=[-0.23279669880867004, -0.2564258873462677, 0.2533651292324066, 0.2718314826488495, 0.22661006450653076, -0.1425275355577469]
+>>> SIM DONE (no crash)
+>>> final root_pos_w = [0.012136784382164478, 0.00015799907851032913, 0.22775307297706604]

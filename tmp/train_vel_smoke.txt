@@ -1,0 +1,161 @@
+[INFO][AppLauncher]: Using device: cuda:0
+[INFO][AppLauncher]: Loading experience file: /home/brown/IsaacLab/apps/isaaclab.python.headless.kit
+Loading user config located at: '/home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/isaacsim/kit/data/Kit/Isaac-Sim/5.1/user.config.json'
+[Info] [carb] Logging to file: /home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/isaacsim/kit/logs/Kit/Isaac-Sim/5.1/kit_20261004_155659.log
+2026-10-04T07:56:59Z [248ms] [Warning] [omni.usd_config.extension] Enable omni.materialx.libs extension to use MaterialX
+2026-10-04T07:57:00Z [940ms] [Warning] [carb] Acquiring non optional plugin interface which is not listed as dependency: [omni::physx::IPhysxBenchmarks v1.0] (plugin: <default plugin>), by client: omni.physics.physx.plugin. Add it to CARB_PLUGIN_IMPL_DEPS() macro of a client.
+2026-10-04T07:57:00Z [1,085ms] [Warning] [omni.isaac.dynamic_control] omni.isaac.dynamic_control is deprecated as of Isaac Sim 4.5. No action is needed from end-users.
+2026-10-04T07:57:06Z [6,371ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (RPL-S)
+2026-10-04T07:57:06Z [6,372ms] [Warning] [gpu.foundation.plugin] Skipping unsupported non-NVIDIA GPU: Intel(R) Graphics (RPL-S)
+
+|---------------------------------------------------------------------------------------------|
+| Driver Version: 580.178.04    | Graphics API: Vulkan
+|=============================================================================================|
+| GPU | Name                             | Active | LDA | GPU Memory | Vendor-ID | LUID       |
+|     |                                  |        |     |            | Device-ID | UUID       |
+|     |                                  |        |     |            | Bus-ID    |            |
+|---------------------------------------------------------------------------------------------|
+| 0   | NVIDIA GeForce RTX 4060 Laptop.. | Yes: 0 |     | 8188    MB | 10de      | 0          |
+|     |                                  |        |     |            | 28a0      | ade03d04.. |
+|     |                                  |        |     |            | 1         |            |
+|---------------------------------------------------------------------------------------------|
+| 1   | Intel(R) Graphics (RPL-S)        |        |     | 23867   MB | 8086      | 0          |
+|     |                                  |        |     |            | a78b      | 86808ba7.. |
+|     |                                  |        |     |            | 0         |            |
+|=============================================================================================|
+| OS: 22.04.5 LTS (Jammy Jellyfish) ubuntu, Version: 22.04.5, Kernel: 6.8.0-138-generic
+| XServer Vendor: The X.Org Foundation, XServer Version: 12101004 (1.21.1.4)
+| Processor: Intel(R) Core(TM) i7-14650HX
+| Cores: 16 | Logical Cores: 24
+|---------------------------------------------------------------------------------------------|
+| Total Memory (MB): 31823 | Free Memory: 24375
+| Total Page/Swap (MB): 0 | Free Page/Swap: 0
+|---------------------------------------------------------------------------------------------|
+2026-10-04T07:57:07Z [7,473ms] [Warning] [gpu.foundation.plugin] CPU performance profile is set to powersave. This profile sets the CPU to the lowest frequency reducing performance.
+2026-10-04T07:57:07Z [7,483ms] [Warning] [gpu.foundation.plugin] IOMMU is enabled.
+2026-10-04T07:57:07Z [7,483ms] [Warning] [gpu.foundation.plugin] Detected IOMMU is enabled. Running CUDA peer-to-peer bandwidth and latency validation.
+Unidirectional P2P=Enabled Bandwidth (P2P Writes) Matrix (GB/s)
+   D\D     0 
+     0 223.25 
+P2P=Enabled Latency (P2P Writes) Matrix (us)
+   GPU     0 
+     0   1.23 
+
+   CPU     0 
+     0   1.37 
+[INFO]: Parsing configuration from: agent_tasks.manager_based.cod_stand.cod_stand_env_cfg:CodStandEnvCfg
+[INFO]: Parsing configuration from: agent_tasks.manager_based.cod_stand.agents.rsl_rl_ppo_cfg:CodStandPPORunnerCfg
+[INFO] Logging experiment in directory: /home/brown/wheeled-legged_RL/logs/rsl_rl/cod_stand
+Exact experiment name requested from command line: 2026-10-04_15-57-08
+Setting seed: 42
+[INFO]: Base environment:
+	Environment device    : cuda:0
+	Environment seed      : 42
+	Physics step-size     : 0.005
+	Rendering step-size   : 0.02
+	Environment step-size : 0.02
+[INFO]: Time taken for scene creation : 0.392932 seconds
+[INFO]: Scene manager:  <class InteractiveScene>
+	Number of environments: 256
+	Environment spacing   : 2.5
+	Source prim name      : /World/envs/env_0
+	Global prim paths     : []
+	Replicate physics     : True
+[INFO]: Starting the simulation. This may take a few seconds. Please wait...
+2026-10-04T07:57:09Z [9,467ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/left_rear1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] Damping attribute is unsupported for articulation joints and will be ignored (/World/envs/env_0/Robot/joints/right_front1_joint).
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/right_f3r1_joint
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/right_f4r2_joint
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/left_f3r1_joint
+2026-10-04T07:57:09Z [9,468ms] [Warning] [omni.physx.plugin] PhysicsUSD: CreateJoint - found a joint with disjointed body transforms, the simulation will most likely snap objects together: /World/envs/env_0/Robot/joints/left_f4r2_joint
+2026-10-04T07:57:09Z [9,469ms] [Warning] [omni.physx.plugin] Detected an articulation at /World/envs/env_0/Robot/base_link with more than 4 velocity iterations being added to a TGS scene.The related behavior changed recently, please consult the changelog. This warning will only print once.
+[INFO]: Time taken for simulation start : 0.489898 seconds
+[INFO] Command Manager:  <CommandManager> contains 0 active terms.
++------------------------+
+|  Active Command Terms  |
++--------+-------+-------+
+| Index  | Name  |  Type |
++--------+-------+-------+
++--------+-------+-------+
+
+[INFO] Event Manager:  <EventManager> contains 1 active terms.
++-------------------------------------+
+| Active Event Terms in Mode: 'reset' |
++---------+---------------------------+
+|  Index  | Name                      |
++---------+---------------------------+
+|    0    | reset_base                |
+|    1    | reset_robot_joints        |
++---------+---------------------------+
+
+[INFO] Recorder Manager:  <RecorderManager> contains 0 active terms.
++---------------------+
+| Active Recorder Terms |
++-----------+---------+
+|   Index   | Name    |
++-----------+---------+
++-----------+---------+
+
+[INFO] Action Manager:  <ActionManager> contains 2 active terms.
++----------------------------------+
+|  Active Action Terms (shape: 6)  |
++--------+------------+------------+
+| Index  | Name       |  Dimension |
++--------+------------+------------+
+|   0    | joint_pos  |          4 |
+|   1    | wheel_vel  |          2 |
++--------+------------+------------+
+
+Error executing job with overrides: []
+Traceback (most recent call last):
+  File "/home/brown/IsaacLab/source/isaaclab_tasks/isaaclab_tasks/utils/hydra.py", line 101, in hydra_main
+    func(env_cfg, agent_cfg, *args, **kwargs)
+  File "/home/brown/wheeled-legged_RL/scripts/rsl_rl/train.py", line 218, in main
+    env = gym.make(args_cli.task, cfg=env_cfg, render_mode="rgb_array" if args_cli.video else None)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brown/miniconda3/envs/env_isaaclab/lib/python3.11/site-packages/gymnasium/envs/registration.py", line 734, in make
+    env = env_creator(**env_spec_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/envs/manager_based_rl_env.py", line 82, in __init__
+    super().__init__(cfg=cfg)
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/envs/manager_based_env.py", line 173, in __init__
+    self.load_managers()
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/envs/manager_based_rl_env.py", line 118, in load_managers
+    super().load_managers()
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/envs/manager_based_env.py", line 297, in load_managers
+    self.observation_manager = ObservationManager(self.cfg.observations, self)
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/managers/observation_manager.py", line 82, in __init__
+    super().__init__(cfg, env)
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/managers/manager_base.py", line 173, in __init__
+    self._prepare_terms()
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/managers/observation_manager.py", line 549, in _prepare_terms
+    obs_dims = tuple(term_cfg.func(self._env, **term_cfg.params).shape)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/envs/utils/io_descriptors.py", line 195, in wrapper
+    out = func(env, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/envs/mdp/observations.py", line 674, in generated_commands
+    return env.command_manager.get_command(command_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/brown/IsaacLab/source/isaaclab/isaaclab/managers/command_manager.py", line 383, in get_command
+    return self._terms[name].command
+           ~~~~~~~~~~~^^^^^^
+KeyError: 'base_velocity'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+2026-10-04T07:57:09Z [9,772ms] [Warning] [omni.physx.plugin] USD stage detach not called, holding a loose ptr to a stage!
+2026-10-04T07:57:09Z [9,921ms] [Warning] [carb] Recursive unloadAllPlugins() detected!
+EXIT=1
